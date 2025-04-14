@@ -1,4 +1,8 @@
-
+"""1. Write a Python function called factorial(n) that computes the factorial
+of a given positive integer n using recursion.
+2. Write a recurrence relation to find the Fibonacci series of n where n>2.
+3. Write all the postive odd numbers smaller or equal to 14 using
+recursion"""
 
 def fibonacci(n):
     # Check if n is less than 0
