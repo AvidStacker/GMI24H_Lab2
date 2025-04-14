@@ -23,3 +23,14 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 print(fibonacci(9))
+
+def print_odd_numbers(n):
+ 
+    if n <= 0:
+        return
+   
+    print_odd_numbers(n-2)
+    if n % 2 == 1:
+        print(n, end=" ")
+
+print_odd_numbers(14)
