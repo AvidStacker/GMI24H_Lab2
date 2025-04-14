@@ -4,6 +4,14 @@ of a given positive integer n using recursion.
 3. Write all the postive odd numbers smaller or equal to 14 using
 recursion"""
 
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print(factorial(5))
+
 def fibonacci(n):
     if n < 0:
         print("Incorrect input")
